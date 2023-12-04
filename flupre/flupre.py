@@ -824,7 +824,8 @@ def process_extract_cmd(input_file, args, is_directory = True):
                 acc_pro_dict = acc_pro_dic,
                 marker_dict = marker_dict
             )
-            markers_type = filename.split("_formated.csv")[0].split('_')[1]
+            markers_type = filename.split("_formated.csv")[0]
+            markers_type = markers_type.split('_')[1] if "_" in markers_type else markers_type
             results_df = identify_markers(
                 input_file_path = str(input_file),
                 renumbering_results = renumbering_results,
