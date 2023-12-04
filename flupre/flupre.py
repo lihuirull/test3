@@ -685,9 +685,9 @@ def identify_markers(input_file_path, renumbering_results, marker_markers, acc_p
     # Identify HA and NA types based on acc_pro_dic
     print(acc_pro_dic)
     for acc, pro in acc_pro_dic.items():
-        if pro in HA_TYPES:
+        if pro in HA_TYPES or pro == "H3":
             ha_type = pro
-        elif pro in NA_TYPES:
+        elif pro in NA_TYPES or pro == "N2":
             na_type = pro
 
     # This is to handle each HA/NA, including those present in combinations,
