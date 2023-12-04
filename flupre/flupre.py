@@ -634,7 +634,7 @@ def merge_dataframes(results, data, markers_type, ha_type, na_type):
     final_results.replace('', np.nan, inplace = True)
 
     # Drop rows where specific columns are NaN
-    final_results.dropna(subset = ['Strain ID', f'{markers_type} Markers', 'Protein Type'], how = "all", inplace = True)
+    final_results.dropna(subset = ['Strain ID', f'{markers_type.title()} Markers', 'Protein Type'], how = "all", inplace = True)
 
     final_results.drop_duplicates(inplace = True)
     return final_results
