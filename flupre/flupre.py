@@ -138,7 +138,7 @@ def annotate_fasta_file(input_fasta_path, output_directory = ".", prefix = "", e
     # Update the CSV file with annotations
     output_csv_filename = f"{add_prefix}{input_fasta_filename.split('.')[0]}_annotated.csv"
     output_csv_path = f"{output_directory}/{output_csv_filename}"
-    annotations.to_csv(output_csv_path, index = False, encoding = "utf-8")
+    annotations.to_csv(output_csv_path, index = False,  encoding='utf-8-sig')
     print("CSV file updated with annotations.\n")
 
     if update_file:
@@ -708,7 +708,7 @@ def identify_markers(input_file_path, renumbering_results, marker_markers, acc_p
     add_prefix = prefix + "_" if prefix else ""
     filename = add_prefix + input_file_name.split(".")[0] + "_markers.csv"
     # Save the results to a CSV file
-    results_df.to_csv(f"{output_directory}/{filename}", index = False, encoding = "utf-8")
+    results_df.to_csv(f"{output_directory}/{filename}", index = False, encoding='utf-8-sig')
 
     return results_df
 
@@ -831,6 +831,7 @@ def process_extract_cmd(input_file, args, is_directory = True):
                 renumbering_results = renumbering_results,
                 marker_markers = marker_dict,
                 acc_pro_dic = acc_pro_dic,
+                # Default directory
                 output_directory = markers_type,
                 prefix = args.prefix,
                 markers_type = markers_type,
