@@ -1,4 +1,233 @@
 Protein Type,Mutation,PMID,Source,Drug,Resistance_level,Protein
+N2,119D,PMID:30602610,,oseltamivir,low,N2
+N2,119D,PMID:30602610,,zanamivir,high,N2
+N2,119D,PMID:30602610,,peramivir,high,N2
+N2,119D,PMID:30602610,,laninamivir,high,N2
+N2,119G,PMID:30602610,,oseltamivir,low,N2
+N2,119G,PMID:30602610,,zanamivir,high,N2
+N2,119G,PMID:30602610,,peramivir,middle,N2
+N2,119G,PMID:30602610,,laninamivir,high,N2
+N2,136K,PMID:30602610,,zanamivir,high,N2
+N2,136K,PMID:30602610,,peramivir,middle,N2
+N2,136K,PMID:30602610,,laninamivir,middle,N2
+N2,152K,PMID:30602610,,oseltamivir,middle,N2
+N2,152K,PMID:30602610,,zanamivir,middle,N2
+N2,152K,PMID:30602610,,peramivir,low,N2
+N2,152K,PMID:30602610,,laninamivir,middle,N2
+N2,459T,PMID:30602610,,oseltamivir,high,N2
+N2,459T,PMID:30602610,,zanamivir,high,N2
+N2,459T,PMID:30602610,,peramivir,high,N2
+N2,459T,PMID:30602610,,laninamivir,high,N2
+N2,198E,PMID:30602610,,oseltamivir,middle,N2
+N2,198E,PMID:30602610,,zanamivir,low,N2
+N2,198E,PMID:30602610,,peramivir,low,N2
+N2,198E,PMID:30602610,,laninamivir,low,N2
+N2,199S,PMID:30602610,,oseltamivir,low,N2
+N2,247D,PMID:30602610,,oseltamivir,low,N2
+N2,263I,PMID:30602610,,oseltamivir,low,N2
+N2,269K,PMID:30602610,,oseltamivir,low,N2
+N2,321V,PMID:30602610,,oseltamivir,low,N2
+N2,372K,PMID:30602610,,oseltamivir,low,N2
+N2,390K,PMID:30602610,,oseltamivir,low,N2
+N2,432E,PMID:30602610,,oseltamivir,low,N2
+N2,432E,PMID:30602610,,zanamivir,low,N2
+N2,432E,PMID:30602610,,peramivir,low,N2
+N2,116A,PMID:31228489,"The susceptibility of CA/04NA−V116A mutant to oseltamivir and zanamivir was reduced (meanIC50 increase: 10.0- and 17.4-fold, respectively) as compared to that of the wild-type CA/04 virus.",oseltamivir,low,N2
+N2,116A,PMID:31228489,"The susceptibility of CA/04NA−V116A mutant to oseltamivir and zanamivir was reduced (meanIC50 increase: 10.0- and 17.4-fold, respectively) as compared to that of the wild-type CA/04 virus.",zanamivir,middle,N2
+N2,116A,PMID:31228489,"The susceptibility of CA/04NA−V116A mutant to oseltamivir and zanamivir was reduced (meanIC50 increase: 10.0- and 17.4-fold, respectively) as compared to that of the wild-type CA/04 virus.",laninamivir,low,N2
+N2,294S,PMID:31228489,,oseltamivir,middle,N2
+N2,294S,PMID:31228489,,zanamivir,low,N2
+N2,294S,PMID:31228489,,laninamivir,low,N2
+N2,117V,PMID:31228489,The CA-NAI117V virus exhibited reduced sensitivity to oseltamivirand zanamivir in virus reduction assay in Calu-3 cells.,oseltamivir,low,N2
+N2,117V,PMID:31228489,The CA-NAI117V virus exhibited reduced sensitivity to oseltamivirand zanamivir in virus reduction assay in Calu-3 cells.,zanamivir,low,N2
+N2,274Y,PMID:31228489,The CA/04NA−H275Y mutant was highly resistant to oseltamivir(mean IC50 increase: > 950-fold) as compared to the CA/04,oseltamivir,high,N2
+N2,274Y,PMID:31228489,The CA/04NA−H275Y mutant was highly resistant to oseltamivir(mean IC50 increase: > 950-fold) as compared to the CA/04,laninamivir,low,N2
+N2,96A,PMID:31168925,"Analysis of the NA protein showed that six Bangladeshi isolates of clade 2.3.2.1a acquired mutations at V96A, I97V, S227N, N275S positions suggesting a reduced susceptibility to antiviral agents such as zanamivir and osteltamivir",oseltamivir,low,N2
+N2,96A,PMID:31168925,"Analysis of the NA protein showed that six Bangladeshi isolates of clade 2.3.2.1a acquired mutations at V96A, I97V, S227N, N275S positions suggesting a reduced susceptibility to antiviral agents such as zanamivir and osteltamivir",zanamivir,low,N2
+N2,97V,PMID:31168925,,oseltamivir,low,N2
+N2,226N,PMID:31168925,,oseltamivir,low,N2
+N2,274S,PMID:31168925,,oseltamivir,low,N2
+N2,155H,PMID:33202972,"Analysis of residues involved in IAV resistance to antiviral drugs identified only two H1avN1 strains that each naturally acquired a mutation, assessed to impact the efficacy of NA inhibitors, NA-Y155H classified as highly reduced inhibition (HRI) to oseltamivir and zanamivir, and NA-S247N classified as reduced inhibition (RI) to oseltamivir for H5N1 viruses(WHO).",oseltamivir,high,N2
+N2,155H,PMID:33202972,"Analysis of residues involved in IAV resistance to antiviral drugs identified only two H1avN1 strains that each naturally acquired a mutation, assessed to impact the efficacy of NA inhibitors, NA-Y155H classified as highly reduced inhibition (HRI) to oseltamivir and zanamivir, and NA-S247N classified as reduced inhibition (RI) to oseltamivir for H5N1 viruses(WHO).",zanamivir,high,N2
+N2,246N,PMID:33202972,,oseltamivir,middle,N2
+N2,198Y,PMID:32004620,"One virus, with NA D199Y substitution detected in both clinical specimen and virus isolate, exhibited RI by oseltamivir and zanamivir.",oseltamivir,middle,N2
+N2,198Y,PMID:32004620,"One virus, with NA D199Y substitution detected in both clinical specimen and virus isolate, exhibited RI by oseltamivir and zanamivir.",zanamivir,middle,N2
+N2,198Y,PMID:32004620,"One virus, with NA D199Y substitution detected in both clinical specimen and virus isolate, exhibited RI by oseltamivir and zanamivir.",peramivir,low,N2
+N2,198Y,PMID:32004620,"One virus, with NA D199Y substitution detected in both clinical specimen and virus isolate, exhibited RI by oseltamivir and zanamivir.",laninamivir,low,N2
+N2,222R,PMID:32004620,"A virus with I223R substitution, isolated from an outpatient who had not received NAI treatment, showed RI by oseltamivir and borderline RI by zanamivir",oseltamivir,middle,N2
+N2,222R,PMID:32004620,"A virus with I223R substitution, isolated from an outpatient who had not received NAI treatment, showed RI by oseltamivir and borderline RI by zanamivir",zanamivir,middle,N2
+N2,148A,PMID:32004620,"NA T148A and NA I427T variants showed borderline RI by zanamivir or RI by oseltamivir and zanamivir and borderline RI by laninamivir, respectively",oseltamivir,low,N2
+N2,148A,PMID:32004620,"NA T148A and NA I427T variants showed borderline RI by zanamivir or RI by oseltamivir and zanamivir and borderline RI by laninamivir, respectively",zanamivir,middle,N2
+N2,427T,PMID:32004620,,oseltamivir,middle,N2
+N2,427T,PMID:32004620,,zanamivir,middle,N2
+N2,427T,PMID:32004620,,laninamivir,middle,N2
+N2,274Y,PMID:32004620,Viruses with pure H275Y substitution exhibited HRI by oseltamivir (260–2078 fold-increase in IC50) and peramivir (172–495 fold-increase in IC50).,oseltamivir,high,N2
+N2,274Y,PMID:32004620,Viruses with pure H275Y substitution exhibited HRI by oseltamivir (260–2078 fold-increase in IC50) and peramivir (172–495 fold-increase in IC50).,peramivir,high,N2
+N2,116A,PMID:22311680,,oseltamivir,middle,N2
+N2,116A,PMID:22311680,,zanamivir,middle,N2
+N2,117R,PMID:WHO,,zanamivir,low,N2
+N2,117V,PMID:22311680,,oseltamivir,low,N2
+N2,117V,PMID:22311680,,zanamivir,low,N2
+N2,119A,PMID:WHO,,oseltamivir,middle,N2
+N2,119A,PMID:WHO,,zanamivir,high,N2
+N2,119D,PMID:WHO,,oseltamivir,middle,N2
+N2,119D,PMID:WHO,,zanamivir,high,N2
+N2,119G,PMID:WHO,,oseltamivir,low,N2
+N2,119G,PMID:WHO,,zanamivir,high,N2
+N2,119V,PMID:WHO,,oseltamivir,middle,N2
+N2,119V,PMID:WHO,,zanamivir,high,N2
+N2,136K,PMID:WHO,,zanamivir,middle,N2
+N2,136L,PMID:22311680,,oseltamivir,middle,N2
+N2,136L,PMID:22311680,,zanamivir,high,N2
+N2,136R,PMID:WHO,,zanamivir,high,N2
+N2,149A,PMID:22311680,,oseltamivir,low,N2
+N2,149A,PMID:22311680,,zanamivir,low,N2
+N2,151E,PMID:WHO,,oseltamivir,low,N2
+N2,151E,PMID:WHO,,zanamivir,middle,N2
+N2,151N,PMID:WHO,,oseltamivir,middle,N2
+N2,151N,PMID:WHO,,zanamivir,middle,N2
+N2,152K,PMID:WHO,,oseltamivir,middle,N2
+N2,152K,PMID:WHO,,zanamivir,low,N2
+N2,155H,PMID:WHO,,oseltamivir,high,N2
+N2,155H,PMID:WHO,,zanamivir,high,N2
+N2,198E,PMID:WHO,,oseltamivir,middle,N2
+N2,198E,PMID:WHO,,zanamivir,low,N2
+N2,198G,PMID:WHO& (198 in paper numbering),,oseltamivir,middle,N2
+N2,198G,PMID:WHO& (198 in paper numbering),,zanamivir,middle,N2
+N2,222K,PMID:WHO& (222 in paper numbering),,oseltamivir,middle,N2
+N2,222K,PMID:WHO& (222 in paper numbering),,zanamivir,low,N2
+N2,222M,PMID:WHO& (222 in paper numbering),,oseltamivir,middle,N2
+N2,222R,PMID:WHO& (222 in paper numbering),,oseltamivir,middle,N2
+N2,222R,PMID:WHO& (222 in paper numbering),,zanamivir,middle,N2
+N2,222T,PMID:WHO& (222 in paper numbering),,oseltamivir,middle,N2
+N2,222T,PMID:WHO& (222 in paper numbering),,zanamivir,low,N2
+N2,222V,PMID:WHO& (222 in paper numbering),,oseltamivir,low,N2
+N2,222V,PMID:WHO& (222 in paper numbering),,zanamivir,low,N2
+N2,246G,PMID:WHO& (246 in paper numbering),,oseltamivir,low,N2
+N2,246N,PMID:WHO& (246 in paper numbering),,oseltamivir,middle,N2
+N2,246N,PMID:WHO& (246 in paper numbering),,zanamivir,low,N2
+N2,246R,PMID:WHO,,oseltamivir,middle,N2
+N2,246R,PMID:WHO,,zanamivir,middle,N2
+N2,274Y,PMID:WHO& (274 in paper numbering),,oseltamivir,high,N2
+N2,274Y,PMID:WHO& (274 in paper numbering),,zanamivir,low,N2
+N2,292K,PMID:WHO,,oseltamivir,middle,N2
+N2,292K,PMID:WHO,,zanamivir,low,N2
+N2,294S,PMID:WHO& (294 in paper numbering),,oseltamivir,high,N2
+N2,294S,PMID:WHO& (294 in paper numbering),,zanamivir,low,N2
+N2,432T,PMID:WHO&(412 in paper numbering),,oseltamivir,low,N2
+N2,432T,PMID:WHO&(412 in paper numbering),,zanamivir,middle,N2
+N2,245N,PMID:20016036,,oseltamivir,low,N2
+N2,245N,PMID:20016036,,zanamivir,low,N2
+N2,116A,PMID:20016036,,oseltamivir,low,N2
+N2,116A,PMID:20016036,,zanamivir,middle,N2
+N2,118G,PMID:26292325,,oseltamivir,middle,N2
+N2,118G,PMID:26292325,,zanamivir,high,N2
+N2,118V,PMID:DOI: 10.1016/j.jcv.2015.07.111,,oseltamivir,low,N2
+N2,118V,PMID:DOI: 10.1016/j.jcv.2015.07.111,,zanamivir,unknown,N2
+N2,150K,PMID:URN:urn:nbn:se:lnu:diva-10973,,oseltamivir,unknown,N2
+N2,150K,PMID:URN:urn:nbn:se:lnu:diva-10973,,zanamivir,unknown,N2
+N2,273Y,PMID:26292325& PMID:23824808& (274 in paper numbering),,oseltamivir,high,N2
+N2,273Y,PMID:26292325& PMID:23824808& (274 in paper numbering),,zanamivir,low,N2
+N2,291K,PMID:26292325& DOI:10.1016/j.jcv.2015.07.111& (292 in paper numbering),,oseltamivir,high,N2
+N2,291K,PMID:26292325& DOI:10.1016/j.jcv.2015.07.111& (292 in paper numbering),,zanamivir,middle,N2
+N2,132I,PMID:29046464& (132 in paper numbering),,zanamivir,low,N2
+N2,246F,PMID:29046464,,zanamivir,low,N2
+N2,274Y,PMID:29046464,,oseltamivir,high,N2
+N2,274Y,PMID:29046464,,zanamivir,low,N2
+N2,276D,PMID:29046464,,oseltamivir,middle,N2
+N2,276D,PMID:29046464,,zanamivir,high,N2
+N2,292K,PMID:29046464,,oseltamivir,high,N2
+N2,292K,PMID:29046464,,zanamivir,high,N2
+N2,427L,PMID:29046464& (427 in paper numbering),,oseltamivir,middle,N2
+N2,427L,PMID:29046464& (427 in paper numbering),,zanamivir,middle,N2
+N2,119V,PMID:29046464& (119 in paper numbering),,oseltamivir,middle,N2
+N2,119V,PMID:29046464& (119 in paper numbering),,zanamivir,high,N2
+N2,147I,PMID:29046464& (147 in paper numbering),,zanamivir,middle,N2
+N2,221H,PMID:29046464& (221 in paper numbering),,zanamivir,low,N2
+N2,274Y,PMID:29046464& (274 in paper numbering),,oseltamivir,high,N2
+N2,274Y,PMID:29046464& (274 in paper numbering),,zanamivir,low,N2
+N2,292K,PMID:29046464& (292 in paper numbering),,oseltamivir,high,N2
+N2,292K,PMID:29046464& (292 in paper numbering),,zanamivir,low,N2
+N2,119D,PMID:29046464,,oseltamivir,low,N2
+N2,119D,PMID:29046464,,zanamivir,high,N2
+N2,119V,PMID:DOI: 10.1016/j.jcv.2015.07.111,,oseltamivir,low,N2
+N2,119V,PMID:DOI: 10.1016/j.jcv.2015.07.111,,zanamivir,unknown,N2
+N2,246V,PMID:29046464& (246 in paper numbering),,oseltamivir,low,N2
+N2,246V,PMID:29046464& (246 in paper numbering),,zanamivir,middle,N2
+N2,292K,PMID:29046464& (292 in paper numbering),,oseltamivir,high,N2
+N2,292K,PMID:29046464& (292 in paper numbering),,zanamivir,middle,N2
+N2,371K,PMID:29046464& (371 in paper numbering),,oseltamivir,middle,N2
+N2,371K,PMID:29046464& (371 in paper numbering),,zanamivir,middle,N2
+N2,120D,PMID:26292325& (119 in paper numbering),,oseltamivir,low,N2
+N2,120D,PMID:26292325& (119 in paper numbering),,zanamivir,high,N2
+N2,120G,PMID:26292325& (119 in paper numbering),,zanamivir,middle,N2
+N2,120V,PMID:26292325& DOI:10.1016/j.jcv.2015.07.111& (119 in paper numbering),,oseltamivir,middle,N2
+N2,153W,PMID:26292325& (152 in paper numbering),,oseltamivir,middle,N2
+N2,153W,PMID:26292325& (152 in paper numbering),,zanamivir,middle,N2
+N2,275Y,PMID:26292325,,oseltamivir,middle,N2
+N2,277D,PMID:26292325,,oseltamivir,low,N2
+N2,277D,PMID:26292325,,zanamivir,middle,N2
+N2,293K,PMID:26292325& DOI:10.1016/j.jcv.2015.07.111,,oseltamivir,high,N2
+N2,293K,PMID:26292325& DOI:10.1016/j.jcv.2015.07.111,,zanamivir,middle,N2
+N2,294N,PMID:26292325,,oseltamivir,middle,N2
+N2,294N,PMID:26292325,,zanamivir,middle,N2
+N2,294S,PMID:33933515,"The neuraminidase of 1 strain had an NA-N293/294S (N8/N2 numbering) substitution associated with reduced inhibition by oseltamivir and normal inhibition by zanamivir, which was confirmed phenotypically.",oseltamivir,low,N2
+N2,294S,PMID:33933515,"The neuraminidase of 1 strain had an NA-N293/294S (N8/N2 numbering) substitution associated with reduced inhibition by oseltamivir and normal inhibition by zanamivir, which was confirmed phenotypically.",zanamivir,low,N2
+N2,118D,PMID:32454245,,oseltamivir,low,N2
+N2,118D,PMID:32454245,,zanamivir,low,N2
+N2,118D,PMID:32454245,,peramivir,low,N2
+N2,149V,PMID:32454245,,oseltamivir,low,N2
+N2,149V,PMID:32454245,,zanamivir,low,N2
+N2,149V,PMID:32454245,,peramivir,low,N2
+N2,116D,PMID:29046464& (116 in paper numbering),,oseltamivir,low,N2
+N2,116D,PMID:29046464& (116 in paper numbering),,zanamivir,low,N2
+N2,136K,PMID:29046464& (136 in paper numbering),,zanamivir,high,N2
+N2,147V,PMID:29046464& (147 in paper numbering),,oseltamivir,low,N2
+N2,147V,PMID:29046464& (147 in paper numbering),,zanamivir,middle,N2
+N2,274Y,PMID:29046464& (274 in paper numbering),,oseltamivir,high,N2
+N2,292K,PMID:29046464& (292 in paper numbering),,oseltamivir,high,N2
+N2,292K,PMID:29046464& (292 in paper numbering),,zanamivir,middle,N2
+N2,121V,PMID:34381119,"And in this study, E119V substitution in HPAI H7N9 virus induced a mean 88.03-fold increase in the IC50 of oseltamivir.",oseltamivir,middle,N2
+N2,118D,PMID:31132385,,oseltamivir,low,N2
+N2,118D,PMID:31132385,,oseltamivir,middle,N2
+N2,118D,PMID:31132385,,zanamivir,high,N2
+N2,118D,PMID:31132385,,peramivir,high,N2
+N2,118D,PMID:31132385,,laninamivir,high,N2
+N2,290K,PMID:31132385,,oseltamivir,high,N2
+N2,290K,PMID:31132385,,zanamivir,middle,N2
+N2,290K,PMID:31132385,,peramivir,high,N2
+N2,329S,PMID:31132385,,peramivir,low,N2
+N2,386K,PMID:31132385,,peramivir,low,N2
+N2,119A,PMID:WHO&(115 in paper numbering),,oseltamivir,middle,N2
+N2,119A,PMID:WHO&(115 in paper numbering),,zanamivir,high,N2
+N2,119D,PMID:WHO&(115 in paper numbering),,oseltamivir,middle,N2
+N2,119D,PMID:WHO&(115 in paper numbering),,zanamivir,high,N2
+N2,119G,PMID:8553549& (119 in paper numbering),,oseltamivir,unknown,N2
+N2,119G,PMID:8553549& (119 in paper numbering),,zanamivir,high,N2
+N2,119V,PMID:26292325& (119 in paper numbering),,oseltamivir,middle,N2
+N2,119V,PMID:26292325& (119 in paper numbering),,zanamivir,low,N2
+N2,136K,PMID:26292325& (136 in paper numbering),,zanamivir,high,N2
+N2,152K,PMID:16891631& (152 in paper numbering),,zanamivir,low,N2
+N2,222K,PMID:WHO&(219 in paper numbering),,oseltamivir,middle,N2
+N2,222K,PMID:WHO&(219 in paper numbering),,zanamivir,middle,N2
+N2,222M,PMID:26292325& (222 in paper numbering),,oseltamivir,middle,N2
+N2,222M,PMID:26292325& (222 in paper numbering),,zanamivir,low,N2
+N2,222R,PMID:WHO&(219 in paper numbering),,oseltamivir,middle,N2
+N2,222R,PMID:WHO&(219 in paper numbering),,zanamivir,low,N2
+N2,246T,PMID:26292325& (246 in paper numbering),,oseltamivir,low,N2
+N2,246T,PMID:26292325& (246 in paper numbering),,zanamivir,middle,N2
+N2,247P,PMID:WHO&(244 in paper numbering),,oseltamivir,middle,N2
+N2,247P,PMID:WHO&(244 in paper numbering),,zanamivir,middle,N2
+N2,274Y,PMID:26292325& PMID:16891631& (274 in paper numbering),,oseltamivir,middle,N2
+N2,274Y,PMID:26292325& PMID:16891631& (274 in paper numbering),,zanamivir,low,N2
+N2,276D,PMID:WHO&(273 in paper numbering),,oseltamivir,middle,N2
+N2,276D,PMID:WHO&(273 in paper numbering),,zanamivir,high,N2
+N2,292K,PMID:26292325& PMID:23965618& (292 in paper numbering),,oseltamivir,high,N2
+N2,292K,PMID:26292325& PMID:23965618& (292 in paper numbering),,zanamivir,middle,N2
+N2,294S,PMID:WHO&(291 in paper numbering),,oseltamivir,low,N2
+N2,294S,PMID:WHO&(291 in paper numbering),,zanamivir,low,N2
+N2,371K,PMID:WHO&(367 in paper numbering),,oseltamivir,middle,N2
+N2,371K,PMID:WHO&(367 in paper numbering),,zanamivir,middle,N2
 N1-combination_19_0,275Y,PMID:32887429,"The H275Y/I223R, H275Y/I223K, and H275Y/G147R mutant viruses exhibited enhanced cross-resistance to oseltamivir and peramivir and reduced susceptibility to zanamivir compared to the corresponding single H275Y mutant viruses. The H275Y/I223R and H275Y/I223K mutant viruses, but not the H275Y/G147R mutant virus, showed reduced susceptibility to laninamivir.",oseltamivir,high,N1
 N1-combination_19_1,223R,PMID:32887429,"The H275Y/I223R, H275Y/I223K, and H275Y/G147R mutant viruses exhibited enhanced cross-resistance to oseltamivir and peramivir and reduced susceptibility to zanamivir compared to the corresponding single H275Y mutant viruses. The H275Y/I223R and H275Y/I223K mutant viruses, but not the H275Y/G147R mutant virus, showed reduced susceptibility to laninamivir.",oseltamivir,high,N1
 N1-combination_20_0,275Y,PMID:32887429,,oseltamivir,high,N1
@@ -278,127 +507,6 @@ M2-combination_275_1,34E,PMID:33200496,,adamantane,low,M2
 M2-combination_276_0,26F,PMID:33200496,,adamantane,low,M2
 M2-combination_276_1,27A,PMID:33200496,,adamantane,low,M2
 M2-combination_276_2,31N,PMID:33200496,,adamantane,low,M2
-N1,119D,PMID:30602610,,oseltamivir,low,N1
-N1,119D,PMID:30602610,,zanamivir,high,N1
-N1,119D,PMID:30602610,,peramivir,high,N1
-N1,119D,PMID:30602610,,laninamivir,high,N1
-N1,119G,PMID:30602610,,oseltamivir,low,N1
-N1,119G,PMID:30602610,,zanamivir,high,N1
-N1,119G,PMID:30602610,,peramivir,middle,N1
-N1,119G,PMID:30602610,,laninamivir,high,N1
-N1,136K,PMID:30602610,,zanamivir,high,N1
-N1,136K,PMID:30602610,,peramivir,middle,N1
-N1,136K,PMID:30602610,,laninamivir,middle,N1
-N1,152K,PMID:30602610,,oseltamivir,middle,N1
-N1,152K,PMID:30602610,,zanamivir,middle,N1
-N1,152K,PMID:30602610,,peramivir,low,N1
-N1,152K,PMID:30602610,,laninamivir,middle,N1
-N1,458T,PMID:30602610,,oseltamivir,high,N1
-N1,458T,PMID:30602610,,zanamivir,high,N1
-N1,458T,PMID:30602610,,peramivir,high,N1
-N1,458T,PMID:30602610,,laninamivir,high,N1
-N1,199E,PMID:30602610,,oseltamivir,middle,N1
-N1,199E,PMID:30602610,,zanamivir,low,N1
-N1,199E,PMID:30602610,,peramivir,low,N1
-N1,199E,PMID:30602610,,laninamivir,low,N1
-N1,200S,PMID:30602610,,oseltamivir,low,N1
-N1,248D,PMID:30602610,,oseltamivir,low,N1
-N1,264I,PMID:30602610,,oseltamivir,low,N1
-N1,270K,PMID:30602610,,oseltamivir,low,N1
-N1,321V,PMID:30602610,,oseltamivir,low,N1
-N1,369K,PMID:30602610,,oseltamivir,low,N1
-N1,386K,PMID:30602610,,oseltamivir,low,N1
-N1,432E,PMID:30602610,,oseltamivir,low,N1
-N1,432E,PMID:30602610,,zanamivir,low,N1
-N1,432E,PMID:30602610,,peramivir,low,N1
-N1,116A,PMID:31228489,"The susceptibility of CA/04NA−V116A mutant to oseltamivir and zanamivir was reduced (meanIC50 increase: 10.0- and 17.4-fold, respectively) as compared to that of the wild-type CA/04 virus.",oseltamivir,low,N1
-N1,116A,PMID:31228489,"The susceptibility of CA/04NA−V116A mutant to oseltamivir and zanamivir was reduced (meanIC50 increase: 10.0- and 17.4-fold, respectively) as compared to that of the wild-type CA/04 virus.",zanamivir,middle,N1
-N1,116A,PMID:31228489,"The susceptibility of CA/04NA−V116A mutant to oseltamivir and zanamivir was reduced (meanIC50 increase: 10.0- and 17.4-fold, respectively) as compared to that of the wild-type CA/04 virus.",laninamivir,low,N1
-N1,295S,PMID:31228489,,oseltamivir,middle,N1
-N1,295S,PMID:31228489,,zanamivir,low,N1
-N1,295S,PMID:31228489,,laninamivir,low,N1
-N1,117V,PMID:31228489,The CA-NAI117V virus exhibited reduced sensitivity to oseltamivirand zanamivir in virus reduction assay in Calu-3 cells.,oseltamivir,low,N1
-N1,117V,PMID:31228489,The CA-NAI117V virus exhibited reduced sensitivity to oseltamivirand zanamivir in virus reduction assay in Calu-3 cells.,zanamivir,low,N1
-N1,275Y,PMID:31228489,The CA/04NA−H275Y mutant was highly resistant to oseltamivir(mean IC50 increase: > 950-fold) as compared to the CA/04,oseltamivir,high,N1
-N1,275Y,PMID:31228489,The CA/04NA−H275Y mutant was highly resistant to oseltamivir(mean IC50 increase: > 950-fold) as compared to the CA/04,laninamivir,low,N1
-N1,96A,PMID:31168925,"Analysis of the NA protein showed that six Bangladeshi isolates of clade 2.3.2.1a acquired mutations at V96A, I97V, S227N, N275S positions suggesting a reduced susceptibility to antiviral agents such as zanamivir and osteltamivir",oseltamivir,low,N1
-N1,96A,PMID:31168925,"Analysis of the NA protein showed that six Bangladeshi isolates of clade 2.3.2.1a acquired mutations at V96A, I97V, S227N, N275S positions suggesting a reduced susceptibility to antiviral agents such as zanamivir and osteltamivir",zanamivir,low,N1
-N1,97V,PMID:31168925,,oseltamivir,low,N1
-N1,227N,PMID:31168925,,oseltamivir,low,N1
-N1,275S,PMID:31168925,,oseltamivir,low,N1
-N1,155H,PMID:33202972,"Analysis of residues involved in IAV resistance to antiviral drugs identified only two H1avN1 strains that each naturally acquired a mutation, assessed to impact the efficacy of NA inhibitors, NA-Y155H classified as highly reduced inhibition (HRI) to oseltamivir and zanamivir, and NA-S247N classified as reduced inhibition (RI) to oseltamivir for H5N1 viruses(WHO).",oseltamivir,high,N1
-N1,155H,PMID:33202972,"Analysis of residues involved in IAV resistance to antiviral drugs identified only two H1avN1 strains that each naturally acquired a mutation, assessed to impact the efficacy of NA inhibitors, NA-Y155H classified as highly reduced inhibition (HRI) to oseltamivir and zanamivir, and NA-S247N classified as reduced inhibition (RI) to oseltamivir for H5N1 viruses(WHO).",zanamivir,high,N1
-N1,247N,PMID:33202972,,oseltamivir,middle,N1
-N1,199Y,PMID:32004620,"One virus, with NA D199Y substitution detected in both clinical specimen and virus isolate, exhibited RI by oseltamivir and zanamivir.",oseltamivir,middle,N1
-N1,199Y,PMID:32004620,"One virus, with NA D199Y substitution detected in both clinical specimen and virus isolate, exhibited RI by oseltamivir and zanamivir.",zanamivir,middle,N1
-N1,199Y,PMID:32004620,"One virus, with NA D199Y substitution detected in both clinical specimen and virus isolate, exhibited RI by oseltamivir and zanamivir.",peramivir,low,N1
-N1,199Y,PMID:32004620,"One virus, with NA D199Y substitution detected in both clinical specimen and virus isolate, exhibited RI by oseltamivir and zanamivir.",laninamivir,low,N1
-N1,223R,PMID:32004620,"A virus with I223R substitution, isolated from an outpatient who had not received NAI treatment, showed RI by oseltamivir and borderline RI by zanamivir",oseltamivir,middle,N1
-N1,223R,PMID:32004620,"A virus with I223R substitution, isolated from an outpatient who had not received NAI treatment, showed RI by oseltamivir and borderline RI by zanamivir",zanamivir,middle,N1
-N1,148A,PMID:32004620,"NA T148A and NA I427T variants showed borderline RI by zanamivir or RI by oseltamivir and zanamivir and borderline RI by laninamivir, respectively",oseltamivir,low,N1
-N1,148A,PMID:32004620,"NA T148A and NA I427T variants showed borderline RI by zanamivir or RI by oseltamivir and zanamivir and borderline RI by laninamivir, respectively",zanamivir,middle,N1
-N1,427T,PMID:32004620,,oseltamivir,middle,N1
-N1,427T,PMID:32004620,,zanamivir,middle,N1
-N1,427T,PMID:32004620,,laninamivir,middle,N1
-N1,275Y,PMID:32004620,Viruses with pure H275Y substitution exhibited HRI by oseltamivir (260–2078 fold-increase in IC50) and peramivir (172–495 fold-increase in IC50).,oseltamivir,high,N1
-N1,275Y,PMID:32004620,Viruses with pure H275Y substitution exhibited HRI by oseltamivir (260–2078 fold-increase in IC50) and peramivir (172–495 fold-increase in IC50).,peramivir,high,N1
-N1,116A,PMID:22311680,,oseltamivir,middle,N1
-N1,116A,PMID:22311680,,zanamivir,middle,N1
-N1,117R,PMID:WHO,,zanamivir,low,N1
-N1,117V,PMID:22311680,,oseltamivir,low,N1
-N1,117V,PMID:22311680,,zanamivir,low,N1
-N1,119A,PMID:WHO,,oseltamivir,middle,N1
-N1,119A,PMID:WHO,,zanamivir,high,N1
-N1,119D,PMID:WHO,,oseltamivir,middle,N1
-N1,119D,PMID:WHO,,zanamivir,high,N1
-N1,119G,PMID:WHO,,oseltamivir,low,N1
-N1,119G,PMID:WHO,,zanamivir,high,N1
-N1,119V,PMID:WHO,,oseltamivir,middle,N1
-N1,119V,PMID:WHO,,zanamivir,high,N1
-N1,136K,PMID:WHO,,zanamivir,middle,N1
-N1,136L,PMID:22311680,,oseltamivir,middle,N1
-N1,136L,PMID:22311680,,zanamivir,high,N1
-N1,136R,PMID:WHO,,zanamivir,high,N1
-N1,149A,PMID:22311680,,oseltamivir,low,N1
-N1,149A,PMID:22311680,,zanamivir,low,N1
-N1,151E,PMID:WHO,,oseltamivir,low,N1
-N1,151E,PMID:WHO,,zanamivir,middle,N1
-N1,151N,PMID:WHO,,oseltamivir,middle,N1
-N1,151N,PMID:WHO,,zanamivir,middle,N1
-N1,152K,PMID:WHO,,oseltamivir,middle,N1
-N1,152K,PMID:WHO,,zanamivir,low,N1
-N1,155H,PMID:WHO,,oseltamivir,high,N1
-N1,155H,PMID:WHO,,zanamivir,high,N1
-N1,199E,PMID:WHO,,oseltamivir,middle,N1
-N1,199E,PMID:WHO,,zanamivir,low,N1
-N1,199G,PMID:WHO& (198 in paper numbering),,oseltamivir,middle,N1
-N1,199G,PMID:WHO& (198 in paper numbering),,zanamivir,middle,N1
-N1,223K,PMID:WHO& (222 in paper numbering),,oseltamivir,middle,N1
-N1,223K,PMID:WHO& (222 in paper numbering),,zanamivir,low,N1
-N1,223M,PMID:WHO& (222 in paper numbering),,oseltamivir,middle,N1
-N1,223R,PMID:WHO& (222 in paper numbering),,oseltamivir,middle,N1
-N1,223R,PMID:WHO& (222 in paper numbering),,zanamivir,middle,N1
-N1,223T,PMID:WHO& (222 in paper numbering),,oseltamivir,middle,N1
-N1,223T,PMID:WHO& (222 in paper numbering),,zanamivir,low,N1
-N1,223V,PMID:WHO& (222 in paper numbering),,oseltamivir,low,N1
-N1,223V,PMID:WHO& (222 in paper numbering),,zanamivir,low,N1
-N1,247G,PMID:WHO& (246 in paper numbering),,oseltamivir,low,N1
-N1,247N,PMID:WHO& (246 in paper numbering),,oseltamivir,middle,N1
-N1,247N,PMID:WHO& (246 in paper numbering),,zanamivir,low,N1
-N1,247R,PMID:WHO,,oseltamivir,middle,N1
-N1,247R,PMID:WHO,,zanamivir,middle,N1
-N1,275Y,PMID:WHO& (274 in paper numbering),,oseltamivir,high,N1
-N1,275Y,PMID:WHO& (274 in paper numbering),,zanamivir,low,N1
-N1,293K,PMID:WHO,,oseltamivir,middle,N1
-N1,293K,PMID:WHO,,zanamivir,low,N1
-N1,295S,PMID:WHO& (294 in paper numbering),,oseltamivir,high,N1
-N1,295S,PMID:WHO& (294 in paper numbering),,zanamivir,low,N1
-N1,432T,PMID:WHO&(412 in paper numbering),,oseltamivir,low,N1
-N1,432T,PMID:WHO&(412 in paper numbering),,zanamivir,middle,N1
-N1,246N,PMID:20016036,,oseltamivir,low,N1
-N1,246N,PMID:20016036,,zanamivir,low,N1
-N1,116A,PMID:20016036,,oseltamivir,low,N1
-N1,116A,PMID:20016036,,zanamivir,middle,N1
 N2,292K,PMID:32750468,,oseltamivir,low,N2
 N2,292K,PMID:32750468,,zanamivir,low,N2
 N2,292K,PMID:32750468,,peramivir,low,N2
@@ -543,114 +651,6 @@ N2,274Y,PMID:32750468,The H274Y mutation resulted in RI for the H5N6 NA and HRI 
 N2,274Y,PMID:32750468,The H274Y mutation resulted in RI for the H5N6 NA and HRI for the H5N8 NA.H5N8_E119V and H5N8_H274Y viruses both displayed HRI for PER whereas H5N8_N294S showed a more modest RI to the drug.,peramivir,high,N2
 N2,294S,PMID:32750468,N294S mutation showed RI only in H5N8 background.H5N8_E119V and H5N8_H274Y viruses both displayed HRI for PER whereas H5N8_N294S showed a more modest RI to the drug.,oseltamivir,middle,N2
 N2,294S,PMID:32750468,N294S mutation showed RI only in H5N8 background.H5N8_E119V and H5N8_H274Y viruses both displayed HRI for PER whereas H5N8_N294S showed a more modest RI to the drug.,peramivir,middle,N2
-N3,119G,PMID:26292325,,oseltamivir,middle,N3
-N3,119G,PMID:26292325,,zanamivir,high,N3
-N3,119V,PMID:DOI: 10.1016/j.jcv.2015.07.111,,oseltamivir,low,N3
-N3,119V,PMID:DOI: 10.1016/j.jcv.2015.07.111,,zanamivir,unknown,N3
-N3,151K,PMID:URN:urn:nbn:se:lnu:diva-10973,,oseltamivir,unknown,N3
-N3,151K,PMID:URN:urn:nbn:se:lnu:diva-10973,,zanamivir,unknown,N3
-N3,276Y,PMID:26292325& PMID:23824808& (274 in paper numbering),,oseltamivir,high,N3
-N3,276Y,PMID:26292325& PMID:23824808& (274 in paper numbering),,zanamivir,low,N3
-N3,293K,PMID:26292325& DOI:10.1016/j.jcv.2015.07.111& (292 in paper numbering),,oseltamivir,high,N3
-N3,293K,PMID:26292325& DOI:10.1016/j.jcv.2015.07.111& (292 in paper numbering),,zanamivir,middle,N3
-N4,131I,PMID:29046464& (132 in paper numbering),,zanamivir,low,N4
-N4,246F,PMID:29046464,,zanamivir,low,N4
-N4,274Y,PMID:29046464,,oseltamivir,high,N4
-N4,274Y,PMID:29046464,,zanamivir,low,N4
-N4,276D,PMID:29046464,,oseltamivir,middle,N4
-N4,276D,PMID:29046464,,zanamivir,high,N4
-N4,292K,PMID:29046464,,oseltamivir,high,N4
-N4,292K,PMID:29046464,,zanamivir,high,N4
-N4,428L,PMID:29046464& (427 in paper numbering),,oseltamivir,middle,N4
-N4,428L,PMID:29046464& (427 in paper numbering),,zanamivir,middle,N4
-N5,116V,PMID:29046464& (119 in paper numbering),,oseltamivir,middle,N5
-N5,116V,PMID:29046464& (119 in paper numbering),,zanamivir,high,N5
-N5,144I,PMID:29046464& (147 in paper numbering),,zanamivir,middle,N5
-N5,219H,PMID:29046464& (221 in paper numbering),,zanamivir,low,N5
-N5,272Y,PMID:29046464& (274 in paper numbering),,oseltamivir,high,N5
-N5,272Y,PMID:29046464& (274 in paper numbering),,zanamivir,low,N5
-N5,290K,PMID:29046464& (292 in paper numbering),,oseltamivir,high,N5
-N5,290K,PMID:29046464& (292 in paper numbering),,zanamivir,low,N5
-N6,119D,PMID:29046464,,oseltamivir,low,N6
-N6,119D,PMID:29046464,,zanamivir,high,N6
-N6,119V,PMID:DOI: 10.1016/j.jcv.2015.07.111,,oseltamivir,low,N6
-N6,119V,PMID:DOI: 10.1016/j.jcv.2015.07.111,,zanamivir,unknown,N6
-N6,247V,PMID:29046464& (246 in paper numbering),,oseltamivir,low,N6
-N6,247V,PMID:29046464& (246 in paper numbering),,zanamivir,middle,N6
-N6,293K,PMID:29046464& (292 in paper numbering),,oseltamivir,high,N6
-N6,293K,PMID:29046464& (292 in paper numbering),,zanamivir,middle,N6
-N6,372K,PMID:29046464& (371 in paper numbering),,oseltamivir,middle,N6
-N6,372K,PMID:29046464& (371 in paper numbering),,zanamivir,middle,N6
-N7,118D,PMID:26292325& (119 in paper numbering),,oseltamivir,low,N7
-N7,118D,PMID:26292325& (119 in paper numbering),,zanamivir,high,N7
-N7,118G,PMID:26292325& (119 in paper numbering),,zanamivir,middle,N7
-N7,118V,PMID:26292325& DOI:10.1016/j.jcv.2015.07.111& (119 in paper numbering),,oseltamivir,middle,N7
-N7,151W,PMID:26292325& (152 in paper numbering),,oseltamivir,middle,N7
-N7,151W,PMID:26292325& (152 in paper numbering),,zanamivir,middle,N7
-N7,274Y,PMID:26292325,,oseltamivir,middle,N7
-N7,276D,PMID:26292325,,oseltamivir,low,N7
-N7,276D,PMID:26292325,,zanamivir,middle,N7
-N7,292K,PMID:26292325& DOI:10.1016/j.jcv.2015.07.111,,oseltamivir,high,N7
-N7,292K,PMID:26292325& DOI:10.1016/j.jcv.2015.07.111,,zanamivir,middle,N7
-N7,293N,PMID:26292325,,oseltamivir,middle,N7
-N7,293N,PMID:26292325,,zanamivir,middle,N7
-N8,293S,PMID:33933515,"The neuraminidase of 1 strain had an NA-N293/294S (N8/N2 numbering) substitution associated with reduced inhibition by oseltamivir and normal inhibition by zanamivir, which was confirmed phenotypically.",oseltamivir,low,N8
-N8,293S,PMID:33933515,"The neuraminidase of 1 strain had an NA-N293/294S (N8/N2 numbering) substitution associated with reduced inhibition by oseltamivir and normal inhibition by zanamivir, which was confirmed phenotypically.",zanamivir,low,N8
-N8,116D,PMID:32454245,,oseltamivir,low,N8
-N8,116D,PMID:32454245,,zanamivir,low,N8
-N8,116D,PMID:32454245,,peramivir,low,N8
-N8,147V,PMID:32454245,,oseltamivir,low,N8
-N8,147V,PMID:32454245,,zanamivir,low,N8
-N8,147V,PMID:32454245,,peramivir,low,N8
-N8,114D,PMID:29046464& (116 in paper numbering),,oseltamivir,low,N8
-N8,114D,PMID:29046464& (116 in paper numbering),,zanamivir,low,N8
-N8,134K,PMID:29046464& (136 in paper numbering),,zanamivir,high,N8
-N8,145V,PMID:29046464& (147 in paper numbering),,oseltamivir,low,N8
-N8,145V,PMID:29046464& (147 in paper numbering),,zanamivir,middle,N8
-N8,273Y,PMID:29046464& (274 in paper numbering),,oseltamivir,high,N8
-N8,291K,PMID:29046464& (292 in paper numbering),,oseltamivir,high,N8
-N8,291K,PMID:29046464& (292 in paper numbering),,zanamivir,middle,N8
-N8,119V,PMID:34381119,"And in this study, E119V substitution in HPAI H7N9 virus induced a mean 88.03-fold increase in the IC50 of oseltamivir.",oseltamivir,middle,N8
-N9,119D,PMID:31132385,,oseltamivir,low,N9
-N9,119D,PMID:31132385,,oseltamivir,middle,N9
-N9,119D,PMID:31132385,,zanamivir,high,N9
-N9,119D,PMID:31132385,,peramivir,high,N9
-N9,119D,PMID:31132385,,laninamivir,high,N9
-N9,292K,PMID:31132385,,oseltamivir,high,N9
-N9,292K,PMID:31132385,,zanamivir,middle,N9
-N9,292K,PMID:31132385,,peramivir,high,N9
-N9,331S,PMID:31132385,,peramivir,low,N9
-N9,387K,PMID:31132385,,peramivir,low,N9
-N9,120A,PMID:WHO&(115 in paper numbering),,oseltamivir,middle,N9
-N9,120A,PMID:WHO&(115 in paper numbering),,zanamivir,high,N9
-N9,120D,PMID:WHO&(115 in paper numbering),,oseltamivir,middle,N9
-N9,120D,PMID:WHO&(115 in paper numbering),,zanamivir,high,N9
-N9,120G,PMID:8553549& (119 in paper numbering),,oseltamivir,unknown,N9
-N9,120G,PMID:8553549& (119 in paper numbering),,zanamivir,high,N9
-N9,120V,PMID:26292325& (119 in paper numbering),,oseltamivir,middle,N9
-N9,120V,PMID:26292325& (119 in paper numbering),,zanamivir,low,N9
-N9,137K,PMID:26292325& (136 in paper numbering),,zanamivir,high,N9
-N9,153K,PMID:16891631& (152 in paper numbering),,zanamivir,low,N9
-N9,224K,PMID:WHO&(219 in paper numbering),,oseltamivir,middle,N9
-N9,224K,PMID:WHO&(219 in paper numbering),,zanamivir,middle,N9
-N9,224M,PMID:26292325& (222 in paper numbering),,oseltamivir,middle,N9
-N9,224M,PMID:26292325& (222 in paper numbering),,zanamivir,low,N9
-N9,224R,PMID:WHO&(219 in paper numbering),,oseltamivir,middle,N9
-N9,224R,PMID:WHO&(219 in paper numbering),,zanamivir,low,N9
-N9,248T,PMID:26292325& (246 in paper numbering),,oseltamivir,low,N9
-N9,248T,PMID:26292325& (246 in paper numbering),,zanamivir,middle,N9
-N9,249P,PMID:WHO&(244 in paper numbering),,oseltamivir,middle,N9
-N9,249P,PMID:WHO&(244 in paper numbering),,zanamivir,middle,N9
-N9,276Y,PMID:26292325& PMID:16891631& (274 in paper numbering),,oseltamivir,middle,N9
-N9,276Y,PMID:26292325& PMID:16891631& (274 in paper numbering),,zanamivir,low,N9
-N9,278D,PMID:WHO&(273 in paper numbering),,oseltamivir,middle,N9
-N9,278D,PMID:WHO&(273 in paper numbering),,zanamivir,high,N9
-N9,294K,PMID:26292325& PMID:23965618& (292 in paper numbering),,oseltamivir,high,N9
-N9,294K,PMID:26292325& PMID:23965618& (292 in paper numbering),,zanamivir,middle,N9
-N9,296S,PMID:WHO&(291 in paper numbering),,oseltamivir,low,N9
-N9,296S,PMID:WHO&(291 in paper numbering),,zanamivir,low,N9
-N9,372K,PMID:WHO&(367 in paper numbering),,oseltamivir,middle,N9
-N9,372K,PMID:WHO&(367 in paper numbering),,zanamivir,middle,N9
 M2,30S,PMID:32454245,,adamantane,low,M2
 M2,21G,PMID:17061402,,adamantane,unknown,M2
 M2,26F,PMID:25635767,,adamantane,unknown,M2

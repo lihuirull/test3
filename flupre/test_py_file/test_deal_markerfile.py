@@ -325,258 +325,258 @@ def main(input_file, output_file):
 
 
 # 调用主函数
-if __name__ == '__main__':
-    # phenotype = "mammalian_virulence"
-    # phenotype = "human_adaptation"
-    # phenotype = "transmissibility"
-    phenotype = "drug_resistance"
-    new_protein_dict = main(f"drug_resistance_std.xlsx",
-                            f"../../data/markers_for_extract/{phenotype}_formated.csv")
-    # new_protein_dict = main(f"../data/markers_for_extract/{phenotype}.xlsx",
-    #                         f"../data/markers_for_extract/{phenotype}_formated.csv")
+# if __name__ == '__main__':
+#     # phenotype = "mammalian_virulence"
+#     # phenotype = "human_adaptation"
+#     # phenotype = "transmissibility"
+#     phenotype = "drug_resistance"
+#     new_protein_dict = main(f"drug_resistance_std.xlsx",
+#                             f"../../data/markers_for_extract/{phenotype}_formated.csv")
+#     # new_protein_dict = main(f"../data/markers_for_extract/{phenotype}.xlsx",
+#     #                         f"../data/markers_for_extract/{phenotype}_formated.csv")
+
+t = [{'N1': '106I'}, {'N1': '219Q'}, {'N1': '36-'}, {'N1': '44Q'}, {'N1': '49-'}, {'N1': '49-'}, {'N1': '50-'},
+     {'N1': '51-'}, {'N1': '52-'}, {'N1': '53-'}, {'N1': '54-'}, {'N1': '55-'}, {'N1': '56-'}, {'N1': '57-'},
+     {'N1': '58-'}, {'N1': '59-'}, {'N1': '60-'}, {'N1': '61-'}, {'N1': '62-'}, {'N1': '63-'}, {'N1': '64-'},
+     {'N1': '65-'}, {'N1': '66-'}, {'N1': '67-'}, {'N1': '68-'}, {'N1': '69-'}, {'N1': '70-'}, {'N1': '71-'},
+     {'N1': '72-'}, {
+         'N1': ['49-', '50-', '51-', '52-', '53-', '54-', '55-', '56-', '57-', '58-', '59-', '60-', '61-', '62-', '63-',
+                '64-', '65-', '66-', '67-', '68-', '69-', '70-', '71-', '72-']}, {'N1': '72Q'}]
+
+
+# def format_markers(value, add_protein = ''):
+#     if isinstance(value, str):
+#         if add_protein:
+#             return f'{add_protein}-{value}'
+#         else:
+#             return value
+#     elif isinstance(value, list):
+#         # 使用列表推导式来检查每个字符串中是否含有 '-'
+#         contains_dash = ['-' in s for s in value]
 #
-# t = [{'N1': '106I'}, {'N1': '219Q'}, {'N1': '36-'}, {'N1': '44Q'}, {'N1': '49-'}, {'N1': '49-'}, {'N1': '50-'},
-#      {'N1': '51-'}, {'N1': '52-'}, {'N1': '53-'}, {'N1': '54-'}, {'N1': '55-'}, {'N1': '56-'}, {'N1': '57-'},
-#      {'N1': '58-'}, {'N1': '59-'}, {'N1': '60-'}, {'N1': '61-'}, {'N1': '62-'}, {'N1': '63-'}, {'N1': '64-'},
-#      {'N1': '65-'}, {'N1': '66-'}, {'N1': '67-'}, {'N1': '68-'}, {'N1': '69-'}, {'N1': '70-'}, {'N1': '71-'},
-#      {'N1': '72-'}, {
-#          'N1': ['49-', '50-', '51-', '52-', '53-', '54-', '55-', '56-', '57-', '58-', '59-', '60-', '61-', '62-', '63-',
-#                 '64-', '65-', '66-', '67-', '68-', '69-', '70-', '71-', '72-']}, {'N1': '72Q'}]
+#         # 检查是否所有的字符串都包含短横线 '-'
+#         all_contain_dash = all(contains_dash)
+#         if all_contain_dash:
+#             return value[0].split('-')[0] + '-' + value[-1].split('-')[0] + "CompleteDeletion"
+#         res = ''
+#         for marker in value:
+#             if '-' in marker:
+#                 amino_acid = marker.split('-')[0]
+#                 if add_protein:
+#                     res += f"{add_protein}-{amino_acid}Deletion&"
+#                 else:
+#                     res += f"{amino_acid}Deletion&"
+#             else:
+#                 if add_protein:
+#                     res += f"{add_protein}-{marker}&"
+#                 else:
+#                     res += f"{marker}&"
+#         return res
+# def deal_dict(i):
 #
-#
-# # def format_markers(value, add_protein = ''):
-# #     if isinstance(value, str):
-# #         if add_protein:
-# #             return f'{add_protein}-{value}'
-# #         else:
-# #             return value
-# #     elif isinstance(value, list):
-# #         # 使用列表推导式来检查每个字符串中是否含有 '-'
-# #         contains_dash = ['-' in s for s in value]
-# #
-# #         # 检查是否所有的字符串都包含短横线 '-'
-# #         all_contain_dash = all(contains_dash)
-# #         if all_contain_dash:
-# #             return value[0].split('-')[0] + '-' + value[-1].split('-')[0] + "CompleteDeletion"
-# #         res = ''
-# #         for marker in value:
-# #             if '-' in marker:
-# #                 amino_acid = marker.split('-')[0]
-# #                 if add_protein:
-# #                     res += f"{add_protein}-{amino_acid}Deletion&"
-# #                 else:
-# #                     res += f"{amino_acid}Deletion&"
-# #             else:
-# #                 if add_protein:
-# #                     res += f"{add_protein}-{marker}&"
-# #                 else:
-# #                     res += f"{marker}&"
-# #         return res
-# # def deal_dict(i):
-# #
-# #     if len(i) == 1:
-# #         value = list(i.values())[0]
-# #         return format_markers(value).rsplit("&",1)[0]
-# #     else:
-# #         res = ""
-# #         for prot, value in i.items():
-# #             marker_symbol = format_markers(value,prot)
-# #             if marker_symbol.endswith("&"):
-# #                 res += f"{marker_symbol}"
-# #             else:
-# #                 res += f"{marker_symbol}&"
-# #         return res.rsplit("&",1)[0]
-#
-# def format_marker(marker, protein_prefix = ''):
-#     """
-#     格式化单个遗传标记。如果标记中包含短横线（'-'），则仅保留短横线之前的部分，并附加'Deletion'。
-#     如果提供了蛋白质前缀，它将被添加到标记之前。
-#
-#     参数:
-#         marker (str): 需要格式化的遗传标记。
-#         protein_prefix (str): 可选，添加到每个标记之前的前缀。
-#
-#     返回:
-#         str: 格式化后的遗传标记。
-#     """
-#     # 检查标记是否包含短横线，并相应地分割。
-#     if '-' in marker:
-#         amino_acid = marker.split('-')[0]
-#         deletion_suffix = "Deletion"
+#     if len(i) == 1:
+#         value = list(i.values())[0]
+#         return format_markers(value).rsplit("&",1)[0]
 #     else:
-#         amino_acid = marker
-#         deletion_suffix = ""
-#
-#     # 组合蛋白质前缀、氨基酸和删除后缀。
-#     formatted_marker = f"{protein_prefix}-{amino_acid}{deletion_suffix}" if protein_prefix else f"{amino_acid}{deletion_suffix}"
-#     return formatted_marker
-#
-#
-# def format_marker_list(markers, protein_prefix = ''):
-#     """
-#     格式化标记列表或单个标记字符串。
-#     如果是列表且所有元素都包含短横线，则返回特殊格式的字符串。
-#     否则，列表中的每个标记都将单独格式化。
-#
-#     参数:
-#         markers (str 或 list): 表示遗传标记的字符串或字符串列表。
-#         protein_prefix (str): 可选，添加到每个标记之前的前缀。
-#
-#     返回:
-#         str: 代表格式化后的标记的单个字符串，用'&'连接。
-#     """
-#     # 如果输入是单个字符串，直接格式化。
-#     if isinstance(markers, str):
-#         return format_marker(markers)
-#
-#     # 确定列表中所有标记是否都包含短横线。
-#     all_contain_dash = all('-' in marker for marker in markers)
-#     if all_contain_dash:
-#         # 如果所有标记都包含短横线，创建特殊格式的字符串。
-#         start = markers[0].split('-')[0]
-#         end = markers[-1].split('-')[0]
-#         return f"{start}-{end}CompleteDeletion"
-#
-#     # 单独格式化每个标记并用'&'连接。
-#     return '&'.join(format_marker(marker, protein_prefix) for marker in markers)
-#
-#
-# def process_dictionary(data_dict):
-#     """
-#     处理包含遗传标记的字典。
-#     如果字典只有一个键值对，直接格式化该值。
-#     对于多个键值对，分别格式化每个键值对并用'&'连接。
-#
-#     参数:
-#         data_dict (dict): 以蛋白质名称为键，遗传标记为值的字典。
-#
-#     返回:
-#         str: 代表字典内容格式化后的单个字符串。
-#     """
-#     # 如果只有一个键值对，直接处理这个值。
-#     if len(data_dict) == 1:
-#         return format_marker_list(next(iter(data_dict.values())))
-#
-#     # 如果有多个键值对，分别处理每个键值对。
-#     return '&'.join(format_marker_list(markers, protein) for protein, markers in data_dict.items())
-#
-#
-# def compare_dicts_updated(dict1, dict2):
-#     for key, value1 in dict1.items():
-#         if key not in dict2:
-#             return False
-#
-#         value2 = dict2[key]
-#
-#         if isinstance(value1, list) and isinstance(value2, list):
-#             # 如果两个值都是列表，检查它们是否包含相同的元素（这里不考虑顺序）
-#
-#             if not set(value1).issubset(set(value2)):
-#                 return False
-#         elif isinstance(value1, str) and isinstance(value2, list):
-#             # 如果dict1中的值是字符串，而dict2中的值是列表，则检查字符串是否在列表中
-#             if value1 not in value2:
-#                 return False
-#         elif value1 != value2:
-#             # 其他情况，直接比较值
-#             return False
-#
-#     return True
-#
-#
-# dic2 = {'H3': ['216E', '223V', '146S', '263R', '225G', '229R'], 'M1': ['43M', '215A'],
-#         'M2': ['82S', '24D'], 'N1(N2 numbering)': [],
-#         'NP': ['482S', '184K', '437T', '105V', '253I', '373T', '133L', '286A'],
-#         'PA': ['383D', '224S', '190S', '550L', '237E', '321N', '149S', '295P', '409S', '394D', '330I', '100V'],
-#         'PA-X': [], 'PB1': ['298L', '652A', '115Q', '473V', '469T', '598L', '386R', '517I', '13P'],
-#         'PB1-F2': ['87E', '56V'],
-#         'PB2': ['627E', '715N', '191E', '661A', '504V', '559T', '495V', '283M', '339K', '309D', '66M', '89V', '133V',
-#                 '389R', '598T', '288Q', '477G', '683T', '109V', '391E', '431M']}
-#
-#
-# def map_residues_to_h3(protein, marker_dict, convert_to_h3_dict):
-#     """
-#     Maps the residue numbers for a given protein to the H3/N2 numbering system.
-#
-#     Parameters:
-#         protein (str): The protein identifier.
-#         marker_dict (dict): Dictionary containing markers for various proteins.
-#         convert_to_h3_dict (dict): Dictionary that maps residue numbers to H3.
-#
-#     Returns:
-#         list: A list of residues mapped to H3 numbering system.
-#     """
-#     markers = marker_dict[protein]
-#
-#     # 如果markers是字符串，将其转换为只含一个元素的列表
-#     if isinstance(markers, str):
-#         markers = [markers]
-#
-#     mapped_residues = []
-#     for marker in markers:
-#         # Ensure the marker is in the expected format (e.g., "12A")
-#         marker_match = re.fullmatch(r"(\d+)([A-Z])", marker)
-#         if not marker_match:
-#             # print(f"Warning: marker '{marker}' is not in the correct format and will be skipped.")
-#             continue
-#
-#         position, amino_acid = marker_match.groups()
-#         h3_position = convert_to_h3_dict.get(position)
-#         if h3_position is None:
-#             # print(f"Warning: Position {position} does not have an H3 mapping "
-#             #       f"in the structure comparison file and will be skipped.")
-#             continue
-#
-#         mapped_residues.append(h3_position + amino_acid)
-#
-#     return mapped_residues
-#
-#
-# def convert_HA_residues(marker_dict, structure_folder):
-#     """
-#     Converts HA/NA residues to H3/N2 numbering.
-#
-#     Parameters:
-#         marker_dict: Dictionary with protein types as keys and marker lists as values.
-#         structure_folder: Folder path where the structure mapping files are located.
-#
-#     Returns:
-#         Updated marker_dict with HA/NA types converted to H3/N2 numbering.
-#     """
-#     updated_marker_dict = marker_dict.copy()  # Create copy
-#     for protein in list(marker_dict.keys()):
-#         if protein in HA_TYPES:
-#             mapping_data = pd.read_csv(f"{structure_folder}/H3_{protein}.txt", sep = "\t", header = None,
-#                                        names = ['H3', protein])
-#             convert_to_h3_dict = dict(zip(mapping_data[protein], mapping_data['H3']))
-#
-#             residues = map_residues_to_h3(protein, marker_dict, convert_to_h3_dict)
-#             # residues = [convert_to_H3_dict.get(re.search(r"\d+", i).group()) +
-#             # re.search(r"[A-Z]", i).group() for i in
-#             #             marker_dict[protein] if convert_to_H3_dict.get(re.search(r"\d+", i).group())]
-#             if "H3" in updated_marker_dict:
-#                 updated_marker_dict["H3"].extend(residues)
+#         res = ""
+#         for prot, value in i.items():
+#             marker_symbol = format_markers(value,prot)
+#             if marker_symbol.endswith("&"):
+#                 res += f"{marker_symbol}"
 #             else:
-#                 updated_marker_dict["H3"] = residues
-#             del updated_marker_dict[protein]  # del key
-#         elif protein in NA_TYPES:
-#             if os.path.isfile(f"{structure_folder}/N2_{protein}.txt"):
-#                 mapping_data = pd.read_csv(f"{structure_folder}/N2_{protein}.txt", sep = "\t", header = None,
-#                                            names = ['N2', protein])
-#             else:
-#                 mapping_data = pd.read_csv(f"{structure_folder}/{protein}_N2.txt", sep = "\t", header = None,
-#                                            names = [protein, 'N2'])
-#             convert_to_n2_dict = dict(zip(mapping_data[protein], mapping_data['N2']))
-#
-#             residues = map_residues_to_h3(protein, marker_dict, convert_to_n2_dict)
-#             if "N2" in updated_marker_dict:
-#                 updated_marker_dict["N2"].extend(residues)
-#             else:
-#                 updated_marker_dict["N2"] = residues
-#             del updated_marker_dict[protein]  # del key
-#     return updated_marker_dict
-#
-#
+#                 res += f"{marker_symbol}&"
+#         return res.rsplit("&",1)[0]
+
+def format_marker(marker, protein_prefix = ''):
+    """
+    格式化单个遗传标记。如果标记中包含短横线（'-'），则仅保留短横线之前的部分，并附加'Deletion'。
+    如果提供了蛋白质前缀，它将被添加到标记之前。
+
+    参数:
+        marker (str): 需要格式化的遗传标记。
+        protein_prefix (str): 可选，添加到每个标记之前的前缀。
+
+    返回:
+        str: 格式化后的遗传标记。
+    """
+    # 检查标记是否包含短横线，并相应地分割。
+    if '-' in marker:
+        amino_acid = marker.split('-')[0]
+        deletion_suffix = "Deletion"
+    else:
+        amino_acid = marker
+        deletion_suffix = ""
+
+    # 组合蛋白质前缀、氨基酸和删除后缀。
+    formatted_marker = f"{protein_prefix}-{amino_acid}{deletion_suffix}" if protein_prefix else f"{amino_acid}{deletion_suffix}"
+    return formatted_marker
+
+
+def format_marker_list(markers, protein_prefix = ''):
+    """
+    格式化标记列表或单个标记字符串。
+    如果是列表且所有元素都包含短横线，则返回特殊格式的字符串。
+    否则，列表中的每个标记都将单独格式化。
+
+    参数:
+        markers (str 或 list): 表示遗传标记的字符串或字符串列表。
+        protein_prefix (str): 可选，添加到每个标记之前的前缀。
+
+    返回:
+        str: 代表格式化后的标记的单个字符串，用'&'连接。
+    """
+    # 如果输入是单个字符串，直接格式化。
+    if isinstance(markers, str):
+        return format_marker(markers)
+
+    # 确定列表中所有标记是否都包含短横线。
+    all_contain_dash = all('-' in marker for marker in markers)
+    if all_contain_dash:
+        # 如果所有标记都包含短横线，创建特殊格式的字符串。
+        start = markers[0].split('-')[0]
+        end = markers[-1].split('-')[0]
+        return f"{start}-{end}CompleteDeletion"
+
+    # 单独格式化每个标记并用'&'连接。
+    return '&'.join(format_marker(marker, protein_prefix) for marker in markers)
+
+
+def process_dictionary(data_dict):
+    """
+    处理包含遗传标记的字典。
+    如果字典只有一个键值对，直接格式化该值。
+    对于多个键值对，分别格式化每个键值对并用'&'连接。
+
+    参数:
+        data_dict (dict): 以蛋白质名称为键，遗传标记为值的字典。
+
+    返回:
+        str: 代表字典内容格式化后的单个字符串。
+    """
+    # 如果只有一个键值对，直接处理这个值。
+    if len(data_dict) == 1:
+        return format_marker_list(next(iter(data_dict.values())))
+
+    # 如果有多个键值对，分别处理每个键值对。
+    return '&'.join(format_marker_list(markers, protein) for protein, markers in data_dict.items())
+
+
+def compare_dicts_updated(dict1, dict2):
+    for key, value1 in dict1.items():
+        if key not in dict2:
+            return False
+
+        value2 = dict2[key]
+
+        if isinstance(value1, list) and isinstance(value2, list):
+            # 如果两个值都是列表，检查它们是否包含相同的元素（这里不考虑顺序）
+
+            if not set(value1).issubset(set(value2)):
+                return False
+        elif isinstance(value1, str) and isinstance(value2, list):
+            # 如果dict1中的值是字符串，而dict2中的值是列表，则检查字符串是否在列表中
+            if value1 not in value2:
+                return False
+        elif value1 != value2:
+            # 其他情况，直接比较值
+            return False
+
+    return True
+
+
+dic2 = {'H3': ['216E', '223V', '146S', '263R', '225G', '229R'], 'M1': ['43M', '215A'],
+        'M2': ['82S', '24D'], 'N1(N2 numbering)': [],
+        'NP': ['482S', '184K', '437T', '105V', '253I', '373T', '133L', '286A'],
+        'PA': ['383D', '224S', '190S', '550L', '237E', '321N', '149S', '295P', '409S', '394D', '330I', '100V'],
+        'PA-X': [], 'PB1': ['298L', '652A', '115Q', '473V', '469T', '598L', '386R', '517I', '13P'],
+        'PB1-F2': ['87E', '56V'],
+        'PB2': ['627E', '715N', '191E', '661A', '504V', '559T', '495V', '283M', '339K', '309D', '66M', '89V', '133V',
+                '389R', '598T', '288Q', '477G', '683T', '109V', '391E', '431M']}
+
+
+def map_residues_to_h3(protein, marker_dict, convert_to_h3_dict):
+    """
+    Maps the residue numbers for a given protein to the H3/N2 numbering system.
+
+    Parameters:
+        protein (str): The protein identifier.
+        marker_dict (dict): Dictionary containing markers for various proteins.
+        convert_to_h3_dict (dict): Dictionary that maps residue numbers to H3.
+
+    Returns:
+        list: A list of residues mapped to H3 numbering system.
+    """
+    markers = marker_dict[protein]
+
+    # 如果markers是字符串，将其转换为只含一个元素的列表
+    if isinstance(markers, str):
+        markers = [markers]
+
+    mapped_residues = []
+    for marker in markers:
+        # Ensure the marker is in the expected format (e.g., "12A")
+        marker_match = re.fullmatch(r"(\d+)([A-Z])", marker)
+        if not marker_match:
+            # print(f"Warning: marker '{marker}' is not in the correct format and will be skipped.")
+            continue
+
+        position, amino_acid = marker_match.groups()
+        h3_position = convert_to_h3_dict.get(position)
+        if h3_position is None:
+            # print(f"Warning: Position {position} does not have an H3 mapping "
+            #       f"in the structure comparison file and will be skipped.")
+            continue
+
+        mapped_residues.append(h3_position + amino_acid)
+
+    return mapped_residues
+
+
+def convert_HA_residues(marker_dict, structure_folder):
+    """
+    Converts HA/NA residues to H3/N2 numbering.
+
+    Parameters:
+        marker_dict: Dictionary with protein types as keys and marker lists as values.
+        structure_folder: Folder path where the structure mapping files are located.
+
+    Returns:
+        Updated marker_dict with HA/NA types converted to H3/N2 numbering.
+    """
+    updated_marker_dict = marker_dict.copy()  # Create copy
+    for protein in list(marker_dict.keys()):
+        if protein in HA_TYPES:
+            mapping_data = pd.read_csv(f"{structure_folder}/H3_{protein}.txt", sep = "\t", header = None,
+                                       names = ['H3', protein])
+            convert_to_h3_dict = dict(zip(mapping_data[protein], mapping_data['H3']))
+
+            residues = map_residues_to_h3(protein, marker_dict, convert_to_h3_dict)
+            # residues = [convert_to_H3_dict.get(re.search(r"\d+", i).group()) +
+            # re.search(r"[A-Z]", i).group() for i in
+            #             marker_dict[protein] if convert_to_H3_dict.get(re.search(r"\d+", i).group())]
+            if "H3" in updated_marker_dict:
+                updated_marker_dict["H3"].extend(residues)
+            else:
+                updated_marker_dict["H3"] = residues
+            del updated_marker_dict[protein]  # del key
+        elif protein in NA_TYPES:
+            if os.path.isfile(f"{structure_folder}/N2_{protein}.txt"):
+                mapping_data = pd.read_csv(f"{structure_folder}/N2_{protein}.txt", sep = "\t", header = None,
+                                           names = ['N2', protein])
+            else:
+                mapping_data = pd.read_csv(f"{structure_folder}/{protein}_N2.txt", sep = "\t", header = None,
+                                           names = [protein, 'N2'])
+            convert_to_n2_dict = dict(zip(mapping_data[protein], mapping_data['N2']))
+
+            residues = map_residues_to_h3(protein, marker_dict, convert_to_n2_dict)
+            if "N2" in updated_marker_dict:
+                updated_marker_dict["N2"].extend(residues)
+            else:
+                updated_marker_dict["N2"] = residues
+            del updated_marker_dict[protein]  # del key
+    return updated_marker_dict
+
+
 # total_markers = defaultdict(list)
 # for pro, lst in new_protein_dict.items():
 #     for dic in lst:
@@ -595,56 +595,59 @@ if __name__ == '__main__':
 #             # print('-------------')
 #             # print(s.values())
 #             # print(s)
-#
-# # res = process_dictionary(s)
-# # print(res)
-# # for s in t:
-# #     res = process_dictionary(s)
-# #     print(res)
-#
-#
-# # 把HA NA单个的转变为H3 N2
-# data = pd.read_csv(f"../data/markers_for_extract/{phenotype}_formated.csv")
-# # Splitting the "Protein Type" column in data DataFrame
-# # Splitting the "Protein Type" column in data DataFrame
-#
-# print(data)
-# print(data.loc[:, "Protein Type"].tolist())
-# # # 假设 HA_TYPES 和 NA_TYPES 是预定义的列表
-# # HA_TYPES.append('H3')
-# # NA_TYPES.append('N2')
-#
-#
-# data_with_combination = data[
-#     data.loc[:, "Protein Type"].isin(HA_TYPES) | data.loc[:, "Protein Type"].isin(NA_TYPES)]
-#
-# data_without_combination = data[
-#     ~(data.loc[:, "Protein Type"].isin(HA_TYPES) | data.loc[:, "Protein Type"].isin(NA_TYPES))]
-# # data_with_combination.loc[:, "Residue"] = data_with_combination.loc[:, "Mutation"].apply(
-# #     lambda x: re.search('[A-Z-]', x).group())
-# # data_with_combination.loc[:, "Mutation"] = data_with_combination.loc[:, "Mutation"].apply(
-# #     lambda x: re.search('\d+', x).group())
-# print(data_with_combination)
-#
-# for idx, row in data_with_combination.iterrows():
-#     dic = {row["Protein Type"]: row['Mutation']}
-#     newdic = convert_HA_residues(dic, "../data/structure")
-#     print(newdic)
-#     # 检查 newdic 是否为空
-#     if list(newdic.values())[0]:
-#         data_with_combination.loc[idx, "Protein Type"] = list(newdic.keys())[0]
-#         data_with_combination.loc[idx, "Protein"] = list(newdic.keys())[0]
-#         data_with_combination.loc[idx, "Mutation"] = list(newdic.values())[0][0]
-#     else:
-#         # 如果 newdic 为空，可以选择跳过或赋予默认值
-#         # 例如：跳过当前迭代
-#         continue
-#         # 或者赋予默认值
-#         # data_with_combination.loc[idx, "Protein Type"] = 默认值
-#         # data_with_combination.loc[idx, "Mutation"] = 默认值
-#
-# print(data_with_combination)
-#
-# converted_data = pd.concat([data_with_combination,data_without_combination])
-# print(converted_data)
-# converted_data.to_csv(f"../data/markers_for_extract/{phenotype}_formated.csv",index = False)
+
+# res = process_dictionary(s)
+# print(res)
+# for s in t:
+#     res = process_dictionary(s)
+#     print(res)
+
+phenotype = "drug_resistance"
+# 把HA NA单个的转变为H3 N2
+data = pd.read_csv(f"../../data/markers_for_extract/{phenotype}_formated.csv")
+# Splitting the "Protein Type" column in data DataFrame
+# Splitting the "Protein Type" column in data DataFrame
+
+print(data)
+print(data.loc[:, "Protein Type"].tolist())
+# # 假设 HA_TYPES 和 NA_TYPES 是预定义的列表
+# HA_TYPES.append('H3')
+# NA_TYPES.append('N2')
+
+
+data_with_combination = data[
+    data.loc[:, "Protein Type"].isin(HA_TYPES) | data.loc[:, "Protein Type"].isin(NA_TYPES)]
+
+data_without_combination = data[
+    ~(data.loc[:, "Protein Type"].isin(HA_TYPES) | data.loc[:, "Protein Type"].isin(NA_TYPES))]
+# data_with_combination.loc[:, "Residue"] = data_with_combination.loc[:, "Mutation"].apply(
+#     lambda x: re.search('[A-Z-]', x).group())
+# data_with_combination.loc[:, "Mutation"] = data_with_combination.loc[:, "Mutation"].apply(
+#     lambda x: re.search('\d+', x).group())
+print(data_with_combination)
+
+for idx, row in data_with_combination.iterrows():
+    dic = {row["Protein Type"]: row['Mutation']}
+    newdic = convert_HA_residues(dic, "../../data/structure")
+
+    # 检查 newdic 是否为空
+    if list(newdic.values())[0]:
+        print('-'*50)
+        print(dic)
+        print(newdic)
+        data_with_combination.loc[idx, "Protein Type"] = list(newdic.keys())[0]
+        data_with_combination.loc[idx, "Protein"] = list(newdic.keys())[0]
+        data_with_combination.loc[idx, "Mutation"] = list(newdic.values())[0][0]
+    else:
+        # 如果 newdic 为空，可以选择跳过或赋予默认值
+        # 例如：跳过当前迭代
+        continue
+        # 或者赋予默认值
+        # data_with_combination.loc[idx, "Protein Type"] = 默认值
+        # data_with_combination.loc[idx, "Mutation"] = 默认值
+
+print(data_with_combination)
+
+converted_data = pd.concat([data_with_combination,data_without_combination])
+print(converted_data)
+converted_data.to_csv(f"../../data/markers_for_extract/{phenotype}_formated.csv",index = False)
